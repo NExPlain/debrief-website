@@ -28779,20 +28779,20 @@ return A.t($async$aeU,r)},
 b0Y(a,b){var s=0,r=A.u(t.H),q
 var $async$b0Y=A.p(function(c,d){if(c===1)return A.q(d,r)
 while(true)switch(s){case 0:q=$.h5
-$.Rw=B.dM.EP(window,"http://127.0.0.1:5000/integration/general/login?userid="+A.h(q)+"&appid="+b+"&type="+a,b+" Oauth","width=800, height=900, scrollbars=yes")
+$.Rw=B.dM.EP(window,"https://memology-demo.herokuapp.com/integration/general/login?userid="+A.h(q)+"&appid="+b+"&type="+a,b+" Oauth","width=800, height=900, scrollbars=yes")
 A.N9(window,"message",new A.aeV(),!1,t.SA)
 return A.r(null,r)}})
 return A.t($async$b0Y,r)},
 b0Z(){var s=0,r=A.u(t.H),q
 var $async$b0Z=A.p(function(a,b){if(a===1)return A.q(b,r)
 while(true)switch(s){case 0:q=$.h5
-$.Rw=B.dM.EP(window,"http://127.0.0.1:5000/integration/github/login?userid="+A.h(q)+"&appid=github","GitHub Oauth","width=800, height=900, scrollbars=yes")
+$.Rw=B.dM.EP(window,"https://memology-demo.herokuapp.com/integration/github/login?userid="+A.h(q)+"&appid=github","GitHub Oauth","width=800, height=900, scrollbars=yes")
 A.N9(window,"message",new A.aeW(),!1,t.SA)
 return A.r(null,r)}})
 return A.t($async$b0Z,r)},
 b1_(a,b){var s=0,r=A.u(t.H)
 var $async$b1_=A.p(function(c,d){if(c===1)return A.q(d,r)
-while(true)switch(s){case 0:$.Rw=B.dM.EP(window,"http://127.0.0.1:5000/integration/"+b+"/login?appid="+b,a+" Oauth","width=800, height=900, scrollbars=yes")
+while(true)switch(s){case 0:$.Rw=B.dM.EP(window,"https://memology-demo.herokuapp.com/integration/"+b+"/login?appid="+b,a+" Oauth","width=800, height=900, scrollbars=yes")
 A.N9(window,"message",new A.aeX(),!1,t.SA)
 return A.r(null,r)}})
 return A.t($async$b1_,r)},
@@ -33607,7 +33607,7 @@ b_X(a,b){var s=0,r=A.u(t.f),q,p,o
 var $async$b_X=A.p(function(c,d){if(c===1)return A.q(d,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.v(A.acg(A.ho("http://127.0.0.1:5000/"+a,0,null),null,A.G(["content-type","application/json","Authorization","Bearer plasmatakeworld"],p,p)),$async$b_X)
+return A.v(A.acg(A.ho("https://memology-demo.herokuapp.com/"+a,0,null),null,A.G(["content-type","application/json","Authorization","Bearer plasmatakeworld"],p,p)),$async$b_X)
 case 3:o=d
 if(o.b===200){q=B.o.m0(0,A.u4(J.a2(A.u0(o.e).c.a,"charset")).aZ(0,o.w),null)
 s=1
@@ -33670,7 +33670,7 @@ if(!B.c.u(A.X(new A.b_(b,p),!0,p.i("z.E")),"loginemail"))b.m(0,"loginemail","liz
 o=A
 n=B.o
 s=3
-return A.v(A.b3X((d?"http://0.0.0.0:8888/":"http://127.0.0.1:5000/")+a,b,!0,c),$async$eT)
+return A.v(A.b3X((d?"http://0.0.0.0:8888/":"https://memology-demo.herokuapp.com/")+a,b,!0,c),$async$eT)
 case 3:q=o.b5K(n.aZ(0,f))
 s=1
 break
@@ -33785,7 +33785,7 @@ bse(a,b,c,d,e,f){var s=0,r=A.u(t.l8),q,p,o,n,m,l,k
 var $async$aZT=A.p(function(g,h){if(g===1)return A.q(h,r)
 while(true)switch(s){case 0:l=t.z
 s=3
-return A.v(A.RK("http://127.0.0.1:5000/workflow/generate",A.G(["text",d,"model",c,"max_tokens",b,"exploration",!0],l,l),!0),$async$aZT)
+return A.v(A.RK("https://memology-demo.herokuapp.com/workflow/generate",A.G(["text",d,"model",c,"max_tokens",b,"exploration",!0],l,l),!0),$async$aZT)
 case 3:k=h
 if(J.ug(k,"failed########")){q=null
 s=1
